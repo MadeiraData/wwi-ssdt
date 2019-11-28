@@ -7,6 +7,7 @@
 	CONSTRAINT uq_SampleVersion_RowCount
 	  UNIQUE ([RowCount]),
 	CONSTRAINT chk_SampleVersion_Cardinality 
-	  CHECK ([RowCount]= 1)
+	  CHECK ([RowCount]= 1),
+	  AddedColumn INT NULL
 )
 

@@ -8,7 +8,6 @@
 	  UNIQUE ([RowCount]),
 	CONSTRAINT chk_SampleVersion_Cardinality 
 	  CHECK ([RowCount]= 1),
-	  AddedColumn INT NULL,
-	  NewColumn INT NULL
+	  AddedColumn INT NULL
 )
 

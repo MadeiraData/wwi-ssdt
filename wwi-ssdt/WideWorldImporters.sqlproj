@@ -846,4 +846,12 @@
     <None Include="PostDeploymentScripts\pds400-ins-unkown-orderline.sql" />
     <None Include="PostDeploymentScripts\pds410-update-archive-tables.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Website\Functions\RegEx.cs" />
+  </ItemGroup>
 </Project>

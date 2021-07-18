@@ -9,7 +9,7 @@ DECLARE @EndOfTime datetime2(7) =  '99991231 23:59:59.9999999'
 INSERT [Application].Cities 
   (CityID, CityName, StateProvinceID, [Location], LatestRecordedPopulation, LastEditedBy, ValidFrom, ValidTo) 
 VALUES 
-  (11148, 'Fairlee', [DataLoadSimulation].[GetStateProvinceID] ('VT'), 0xe6100000010cdef1dc312bf44540a19fa9d72d0952c0, 189, 1, @CurrentDateTime, @EndOfTime)
+  (11148, 'Fairleen', [DataLoadSimulation].[GetStateProvinceID] ('VT'), 0xe6100000010cdef1dc312bf44540a19fa9d72d0952c0, 189, 1, @CurrentDateTime, @EndOfTime)
 , (11149, 'Fairlee', [DataLoadSimulation].[GetStateProvinceID] ('MD'), 0xe6100000010cf5e450757e9c43404d559055000b53c0, 490, 1, @CurrentDateTime, @EndOfTime)
 , (11150, 'Fairless Hills', [DataLoadSimulation].[GetStateProvinceID] ('PA'), 0xe6100000010c1ab09a9dfb16444006ad7603bbb652c0, 8466, 1, @CurrentDateTime, @EndOfTime)
 , (11151, 'Fairmead', [DataLoadSimulation].[GetStateProvinceID] ('CA'), 0xe6100000010ce888d750c589424091138145590c5ec0, 1447, 1, @CurrentDateTime, @EndOfTime)
